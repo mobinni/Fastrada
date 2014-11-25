@@ -1,0 +1,27 @@
+<div class="chart">
+    <h1 id="title">{{race.name}}</h1>
+    <tabset justified="true">
+        <tab id="speed" heading="Speed" ng-click="openSpeed()" style="cursor: pointer!important;">
+            <br/>
+            <div id="speedChart">
+                <div id="chartSpeed" style="max-width:700px;height: 400px; margin: 0 auto;"></div>
+                <div id="chartSpeedRangeSelector" style="height: 150px;max-width:800px;margin: 0px auto"></div>
+            </div>
+        </tab>
+        <tab  id="rpm" heading="RPM" ng-click="openRPM()" style="cursor: pointer!important;">
+            <br/>
+            <div id="rpmChart">
+                <div id="chartRPM" style="max-width:700px;height: 400px; margin: 0 auto;"></div>
+                <div id="chartRPMRangeSelector" style="height: 150px;max-width:800px;margin: 0px auto"></div>
+            </div>
+        </tab>
+        <tab id="temperature"  heading="Temperature" ng-click="openTemperature()" style="cursor: pointer!important;">
+            <br/>
+            <div id="temperatureChart">
+                <div id="chartTemperature" style="max-width:700px;height: 400px; margin: 0 auto;"></div>
+                <div id="chartTemperatureRangeSelector" style="height: 150px;max-width:800px;margin: 0px auto"></div>
+            </div>
+        </tab>
+    </tabset>
+    <input type="number" min="10" id="interval" placeholder="Interval" class="form-control" style="width: 200px; margin:0 auto!important;  margin-bottom: 50px!important;" ng-model="interval"/>
+</div>

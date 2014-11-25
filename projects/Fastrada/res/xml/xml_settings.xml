@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+            android:title="@string/genConfiguration">
+        <be.fastrada.components.NumberPreference
+                android:key="@string/prefs_max_rpm"
+                android:title="@string/maximumrpm"
+                android:inputType="number"
+                android:defaultValue="6000"
+                android:maxLength="4"/>
+        <be.fastrada.components.NumberPreference
+                android:key="@string/prefs_max_speed"
+                android:title="@string/maximumspeed"
+                android:inputType="number"
+                android:defaultValue="300"
+                android:maxLength="3"/>
+        <be.fastrada.components.NumberPreference
+                android:key="@string/prefs_max_temp"
+                android:title="@string/maxtemp"
+                android:inputType="number"
+                android:defaultValue="120"
+                android:maxLength="3"/>
+        <be.fastrada.components.NumberPreference
+                android:key="@string/prefs_alarm_temp"
+                android:title="@string/alarmingTemp"
+                android:inputType="number"
+                android:defaultValue="90"
+                android:maxLength="3"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+            android:title="@string/uiConfiguration">
+        <CheckBoxPreference
+                android:key="@string/prefs_show_gear"
+                android:title="@string/showGear"
+                android:defaultValue="true"/>
+        <CheckBoxPreference
+                android:key="@string/prefs_holo_style"
+                android:title="@string/holoStyle"
+                android:defaultValue="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,188 @@
+[
+    {
+        "name": "Race 1",
+        "date": 10210022005,
+        "sensors": [
+            {
+                "name": "speed",
+                "packets": [
+                    {
+                        "value": 20,
+                        "timestamp": 1392385140
+                    },
+                    {
+                        "value": 60,
+                        "timestamp": 1392395150
+                    },
+                    {
+                        "value": 80,
+                        "timestamp": 1392398160
+                    },
+                    {
+                        "value": 125,
+                        "timestamp": 1392399170
+                    },
+                    {
+                        "value": 130,
+                        "timestamp": 1392485180
+                    },
+                    {
+                        "value": 140,
+                        "timestamp": 1392585190
+                    }
+                ]
+            },
+            {
+                "name": "rpm",
+                "packets": [
+                    {
+                        "value": 20,
+                        "timestamp": 1392385140
+                    },
+                    {
+                        "value": 60,
+                        "timestamp": 1392395150
+                    },
+                    {
+                        "value": 80,
+                        "timestamp": 1392398160
+                    },
+                    {
+                        "value": 125,
+                        "timestamp": 1392399170
+                    },
+                    {
+                        "value": 130,
+                        "timestamp": 1392485180
+                    },
+                    {
+                        "value": 140,
+                        "timestamp": 1392585190
+                    }
+                ]
+            },
+            {
+                "name": "temperature",
+                "packets": [
+                    {
+                        "value": 20,
+                        "timestamp": 1392385140
+                    },
+                    {
+                        "value": 60,
+                        "timestamp": 1392395150
+                    },
+                    {
+                        "value": 80,
+                        "timestamp": 1392398160
+                    },
+                    {
+                        "value": 125,
+                        "timestamp": 1392399170
+                    },
+                    {
+                        "value": 130,
+                        "timestamp": 1392485180
+                    },
+                    {
+                        "value": 140,
+                        "timestamp": 1392585190
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Race 2",
+        "date": 10210022005,
+        "sensors": [
+            {
+                "name": "speed",
+                "packets": [
+                    {
+                        "value": 20,
+                        "timestamp": 1392385140
+                    },
+                    {
+                        "value": 60,
+                        "timestamp": 1392395150
+                    },
+                    {
+                        "value": 80,
+                        "timestamp": 1392398160
+                    },
+                    {
+                        "value": 125,
+                        "timestamp": 1392399170
+                    },
+                    {
+                        "value": 130,
+                        "timestamp": 1392485180
+                    },
+                    {
+                        "value": 140,
+                        "timestamp": 1392585190
+                    }
+                ]
+            },
+            {
+                "name": "rpm",
+                "packets": [
+                    {
+                        "value": 20,
+                        "timestamp": 1392385140
+                    },
+                    {
+                        "value": 60,
+                        "timestamp": 1392395150
+                    },
+                    {
+                        "value": 80,
+                        "timestamp": 1392398160
+                    },
+                    {
+                        "value": 125,
+                        "timestamp": 1392399170
+                    },
+                    {
+                        "value": 130,
+                        "timestamp": 1392485180
+                    },
+                    {
+                        "value": 140,
+                        "timestamp": 1392585190
+                    }
+                ]
+            },
+            {
+                "name": "temperature",
+                "packets": [
+                    {
+                        "value": 20,
+                        "timestamp": 1392385140
+                    },
+                    {
+                        "value": 60,
+                        "timestamp": 1392395150
+                    },
+                    {
+                        "value": 80,
+                        "timestamp": 1392398160
+                    },
+                    {
+                        "value": 125,
+                        "timestamp": 1392399170
+                    },
+                    {
+                        "value": 130,
+                        "timestamp": 1392485180
+                    },
+                    {
+                        "value": 140,
+                        "timestamp": 1392585190
+                    }
+                ]
+            }
+        ]
+    }
+]

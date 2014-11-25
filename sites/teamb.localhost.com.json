@@ -1,0 +1,17 @@
+{
+	"name": "teamb.localhost.com",
+	"description": "School vagrant Fastrada",
+    "tomcat": {
+        "base_version": "7"
+    },
+	"run_list": [
+		"recipe[common-packages]",
+		"recipe[java::default]",
+		"recipe[tomcat::default]",
+		"recipe[tomcat::users]",
+		"recipe[chef-android-sdk]",
+		"recipe[maven]",
+		"recipe[maven-android-sdk-deployer]",
+		"recipe[mongodb]"
+	]
+}

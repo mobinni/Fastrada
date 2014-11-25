@@ -1,0 +1,123 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    
+    <modelVersion>4.0.0</modelVersion>
+    
+    <groupId>be.fastrada</groupId>
+    <artifactId>parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>Fastrada Project</name>
+    
+    <!-- Set UTF-8 -->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+    <!-- Developers -->
+    <developers>
+        <developer>
+            <id>xaviergeerinck</id>
+            <name>Xavier Geerinck</name>
+            <email>xavier.geerinck@student.kdg.be</email>
+            <roles>
+                <role>Backend Developer</role>
+            </roles>
+            <timezone>0</timezone>
+        </developer>
+        <developer>
+            <id>adrivanhoudt</id>
+            <name>Adri Van Houdt</name>
+            <email>adri.vanhoudt@student.kdg.be</email>
+            <roles>
+                <role>ISM</role>
+            </roles>
+            <timezone>0</timezone>
+        </developer>
+        <developer>
+            <id>shanasteenssens</id>
+            <name>Shana Steenssens</name>
+            <email>shana.steenssens@student.kdg.be</email>
+            <roles>
+                <role>ISM</role>
+            </roles>
+            <timezone>0</timezone>
+        </developer>
+        <developer>
+            <id>bavodaniels</id>
+            <name>Bavo Daniels</name>
+            <email>bavo.daniels@student.kdg.be</email>
+            <roles>
+                <role>Backend Developer</role>
+            </roles>
+            <timezone>0</timezone>
+        </developer>
+        <developer>
+            <id>thomasducheyne</id>
+            <name>Thomas Ducheyne</name>
+            <email>thomas.ducheyne@student.kdg.be</email>
+            <roles>
+                <role>Front-End Developer</role>
+            </roles>
+            <timezone>0</timezone>
+        </developer>
+        <developer>
+            <id>mobinni</id>
+            <name>Mo Binni</name>
+            <email>mo.binni@student.kdg.be</email>
+            <roles>
+                <role>Front-End Developer</role>
+            </roles>
+            <timezone>0</timezone>
+        </developer>
+    </developers>
+    
+    <!-- Modules -->
+    <modules>
+        <module>Backend</module>
+        <module>Fastrada</module>
+    </modules>
+    
+    <!-- Dependencies -->
+    <dependencies>
+        <!-- JUnit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+        
+        <!-- Android SDK -->
+        <dependency>
+            <groupId>com.google.android</groupId>
+            <artifactId>android</artifactId>
+            <version>4.1.1.4</version>
+            <scope>provided</scope>
+        </dependency>
+        
+        <!-- Android Test SDK -->
+        <dependency>
+            <groupId>com.google.android</groupId>
+            <artifactId>android-test</artifactId>
+            <version>4.1.1.4</version>
+            <scope>provided</scope>
+        </dependency>
+        
+        <!-- Android Compiler -->
+        <dependency>
+            <groupId>com.jayway.maven.plugins.android.generation2</groupId>
+            <artifactId>android-maven-plugin</artifactId>
+            <version>3.8.0</version>
+        </dependency>
+    </dependencies>
+    
+    <!-- Plugins -->
+    <build>
+        <plugins>
+            
+        </plugins>
+    </build>
+</project>

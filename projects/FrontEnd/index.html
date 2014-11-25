@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="fastradaApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Fastrada Dashboard</title>
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation" ng-controller="NavigationCtrl">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Fastrada Dashboard</a>
+    </div>
+
+    <div class="logo"><img src="img/logo.png" alt="logo"/></div>
+
+    <div class="container">
+        <div class="navbar-collapse collapse">
+            <div class="nav navbar-nav navbar-right">
+                <input type="text" placeholder="search ..." id="searchField" class="searchbox" typeahead="race as race.name for race in getRaceData() | filter:{name:$viewValue} | limitTo:8" ng-model="query"/>
+                &nbsp<span id="searchButton" ng-model="searchIcon" ng-click="search()" class="glyphicon glyphicon-search"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container" ng-view></div>
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="./js/bootstrap/bootstrap.min.js"></script>
+
+
+<!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+<script src="lib/angular/angular.js"></script>
+<script src="lib/angular/angular-route.js"></script>
+<script src="js/angular/app.js"></script>
+<script src="//code.angularjs.org/1.2.6/angular-animate.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap-tpls.js"></script>
+
+
+<!--Services-->
+<script src="js/angular/service/services.js"></script>
+
+<!--Controller-->
+<script src="js/angular/controller/controller-home.js"></script>
+<script src="js/angular/controller/controller-navigation.js"></script>
+
+<!-- chart js -->
+<script src="lib/js/globalize.js"></script>
+<script src="lib/js/dx.chartjs.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+$color_navbar_background: rgba(177, 198, 9, 1);
+$search_icon: rgba(38,50,140,1);
+$hover_searchbar: rgba(151,163,75,1);
+@mixin input-placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &:-ms-input-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}
+
+body {
+  padding-top: 120px;
+}
+
+.navbar {
+  top: 50px;
+  background-color: $color_navbar_background;
+  .navbar-header {
+    .navbar-brand {
+      color: white;
+      font-size: 25px;
+      font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    }
+  }
+  .container {
+
+
+  }
+  .container > div > div{
+    padding:8px;
+    .searchbox{
+      height: 30px;
+      padding:5px;
+      width:200px;
+      border:none;
+      border-bottom: 1px $search_icon solid;
+      background-color: $color_navbar_background;
+      color: $search_icon;
+      @include input-placeholder{
+        color: $search_icon;
+
+      }
+
+    }
+    .glyphicon{
+      color: $search_icon;
+      font-size: 21px;
+      vertical-align: middle;
+    }
+
+  }
+}
+
+@media (max-width: 768px) {
+  body{
+    padding-top: 70px;
+  }
+
+  .navbar {
+    top: 0;
+  }
+}
+

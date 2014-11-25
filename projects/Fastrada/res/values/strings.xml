@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fastrada Dashboard</string>
+    <string name="RPM">RPM</string>
+    <string name="maximumrpm">Maximum RPM</string>
+    <string name="maximumspeed">Maximum Speed</string>
+    <string name="maxtemp">Maximum Temperature</string>
+    <string name="settings">settings</string>
+    <string name="alarmingTemp">Alarming temperature</string>
+    <string name="celcius">°C</string>
+    <string name="speed_unit">KM/H</string>
+    <string name="btn_submit">Submit</string>
+    <string name="alarmTempTooHigh">Your alarming temperature must not be higher than the maximum temperature</string>
+    <string name="serverStartError">Server could not start</string>
+    <string name="gear_text">gear</string>
+    <string name="dialogTitle">Race Name</string>
+    <string name="dialogMessage">Fill in a name for this race</string>
+    <string name="dialogPosButton">Ok</string>
+    <string name="dialogNegButton">Cancel</string>
+    <string name="uiConfiguration">UI Configuration</string>
+    <string name="showGear">Gear</string>
+    <string name="genConfiguration">General Configuration</string>
+    <string name="save">Save</string>
+    <string name="holoStyle">Holo Style Layout</string>
+
+    <!-- Shared Preferences Keys -->
+    <string name="prefs_max_speed">prefs_max_speed</string>
+    <string name="prefs_max_temp">prefs_max_temp</string>
+    <string name="prefs_max_rpm">prefs_max_rpm</string>
+    <string name="prefs_alarm_temp">prefs_alarm_temp</string>
+    <string name="prefs_show_gear">prefs_show_gear</string>
+    <string name="prefs_holo_style">prefs_holo_style</string>
+    <string name="noHotspot">Your wifi hotspot is turned off</string>
+    <string name="emptyRacename">Racename cannot be empty</string>
+</resources>

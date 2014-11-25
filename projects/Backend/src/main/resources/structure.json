@@ -1,0 +1,48 @@
+{
+    "packets": {
+        "256": {
+            "struct": [
+                {
+                    "name": "setCurrentRPM",
+                    "size": 16,
+                    "factor": "1",
+                    "offset": "0",
+                    "type": "rpm"
+
+                },
+                {
+                    "name": "setThrottlePos",
+                    "size": 16,
+                    "factor": "0.0015259",
+                    "offset": "0",
+                    "type": "throttle"
+                },
+                {
+                    "name": "setCurrentTemperature",
+                    "size": 16,
+                    "factor": "0.0030518",
+                    "offset": "50",
+                    "type": "temperature"
+                }
+            ]
+        },
+        "257": {
+            "struct": [
+                {
+                    "name": "setCurrentSpeed",
+                    "size": 16,
+                    "factor": "0.00549324",
+                    "offset": "0",
+                    "type": "speed"
+                },
+                {
+                    "name": "setGear",
+                    "size": 8,
+                    "factor": "1",
+                    "offset": "0",
+                    "type": "gear"
+                }
+            ]
+        }
+    }
+}
